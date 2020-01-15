@@ -5,7 +5,8 @@ language json file translation
 ```
 npm i
 
-const translate = require('lan-json-translate')
+const translate = require('lan-json-translate') // node syntax
+import translate from 'lan-json-translate' // ES6 syntax
 
 let lanList = [ // 翻译语言列表
   'en',
