@@ -3,8 +3,9 @@ language json file translation
 
 ## Usage
 ```
-npm i
+*npm i*
 
+---
 const translate = require('lan-json-translate') // node syntax
 import translate from 'lan-json-translate' // ES6 syntax
 
