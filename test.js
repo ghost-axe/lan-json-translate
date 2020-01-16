@@ -1,4 +1,4 @@
-let translate = require('./index.js')
+let translate = require('./index')
 
 let lanList = [
   'en',

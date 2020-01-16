@@ -14,7 +14,7 @@ let lanList = [ // 翻译语言列表
 ]
 
 translate(
-  './src/locales', // 工作目录
+  './src/locales', // 语言文件目录 (当前命令行相对路径)
   'zh-TW', // 源语言
   lanList
   )

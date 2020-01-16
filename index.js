@@ -23,7 +23,7 @@ function translate (w, s, l) {
     return
   }
 
-  SrcData = JSON.parse(fs.readFileSync(path.resolve(__dirname, workDir, (srcLan.toLowerCase() + '.json'))))
+  SrcData = JSON.parse(fs.readFileSync(path.resolve(workDir, (srcLan.toLowerCase() + '.json'))))
   
   console.log('翻译开始...')
   start()
@@ -79,7 +79,7 @@ async function doTrans () {
     }
     start()
     let disData = formatResult(JSON.stringify(SrcData))
-    fs.writeFileSync(path.resolve(__dirname, workDir, (lan + '.json')), disData, 'utf8')
+    fs.writeFileSync(path.resolve(workDir, (lan + '.json')), disData, 'utf8')
     console.log(lan + '.json')
   }
   console.log('翻译完成...')
