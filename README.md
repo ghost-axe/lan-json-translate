@@ -1,12 +1,12 @@
 # lan-json-translate
+多语言JSON文件翻译
 language json file translation
 
 ## Usage
 ```
 npm i
 
-const translate = require('lan-json-translate') // node syntax
-import translate from 'lan-json-translate' // ES6 syntax
+const translate = require('lan-json-translate')
 
 let lanList = [ // 翻译语言列表
   'en',
@@ -14,7 +14,7 @@ let lanList = [ // 翻译语言列表
 ]
 
 translate(
-  './src', // 工作目录
+  './src/locales', // 工作目录
   'zh-TW', // 源语言
   lanList
   )

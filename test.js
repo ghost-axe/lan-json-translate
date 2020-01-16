@@ -5,4 +5,4 @@ let lanList = [
   'ko'
 ]
 
-translate('./src', 'zh-TW', lanList)
+translate('./src/locales', 'zh-TW', lanList)
