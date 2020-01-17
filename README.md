@@ -4,7 +4,7 @@ language json file translation
 
 ## Usage
 ```
-npm i
+npm i lan-json-translate
 
 const translate = require('lan-json-translate')
 
