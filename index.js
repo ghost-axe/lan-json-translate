@@ -24,10 +24,10 @@ function translate (w, s, l) {
   }
 
   SrcData = JSON.parse(fs.readFileSync(path.resolve(workDir, (srcLan.toLowerCase() + '.json'))))
-  
+
   console.log('翻译开始...')
   start()
-  
+
   translating = true
   stringData = transData.join('\n')
   stringCut(stringData)
@@ -147,4 +147,5 @@ function formatResult (data) {
   }
   return resString
 }
+
 module.exports = translate

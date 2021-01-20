@@ -1,6 +1,6 @@
 {
   "name": "lan-json-translate",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "json file translation",
   "main": "index.js",
   "scripts": {
